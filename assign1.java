@@ -3,53 +3,13 @@ class assign1{
         String EmployeeName = "Ravi",EmployeeRole = "JavaDeveloper",EmployeeDept = "IT",Gender = "Male";
         String EmployeeID = "12A",EmailID = "ravi@gmail.com",MobileNumber="9392566148";
        int Employee_salary_Day = 500 ;
+       int h=10;
         /*byte workingDays= 24;
         byte Days_present= 20;
         byte Days_abs= workingDays - Days_present;
         short Employee_salary=(short)Employee_salary_Day * (short)Days_present;
 
-        */
-        /*int workingDays= 24,Days_present=20;s
-        int Days_abs= workingDays-Days_present;
-        int Employee_salary=Employee_salary_Day * Days_present;*/
-
-
-        /* int n1=20,n2=40;
-        int mul=n1*n2;
-        System.out.println(n1+"X"+n2+"="+mul); */
-          /* 
-        // Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
-class HelloWorld {
-    public static void main(String[] args) {
- String EmployeeName = "Ravi",EmployeeRole = "JavaDeveloper",EmployeeDept = "IT",Gender = "Male";
-        String EmployeeID = "12A",EmailID = "ravi@gmail.com",MobileNumber="9392566148";
-       int Employee_salary_Day = 500 ;
-    byte workingDays=(byte) 24;
-        byte Days_present=(byte)20;
-        byte Days_abs= (byte)(workingDays - Days_present);
-short Employee_salary=(short)(Employee_salary_Day *Days_present);
-System.out.println("Employee Name: " + EmployeeName);
-        System.out.println("Employee Role: " + EmployeeRole);
-        System.out.println("Employee Dept: " + EmployeeDept);
-        System.out.println("Gender: " + Gender);
-        System.out.println("Employee ID: " + EmployeeID);
-        System.out.println("Email ID: " + EmailID);
-        System.out.println("Days Present: " + Days_present);
-                System.out.println("Employee_salary: " + Employee_salary);
-        System.out.println("MobileNumber: " + MobileNumber);
-    }
-}*/
-        
-      
-      
-        /*
-        //area and perimeter of rectange
-
-       int length= 4,breadth=8;
-       int Area= length*breadth;
-       int perimeter=2*(length+breadth);
+       hello
        System.out.println("Area of Rectangle is:"+Area + "  Perimeter of Rectangle is :"+perimeter);
 
         //hours to mins and mins to secs
