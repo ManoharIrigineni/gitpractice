@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var c=()=>
+    {  var first_name=document.getElementById("fname").value
+       var last_name=document.getElementById("lname").value
+       var pass_word=document.getElementById("pw").value
+       var c_pass_word=document.getElementById("cpw").value
+       var regex = "^[A-Za-z]\\w{5, 29}$";
+         
+       if()
+
+       if(first_name.length==0 ||last_name.length==0)
+       {
+        alert("names cannot be empty")
+        return false;
+       }
+       if(!isNaN(first_name.charAt(0))||!isNaN(last_name.charAt(0)))
+       {
+        alert("names cannot be start with a number")
+        return false;
+       }
+       if(pass_word!=c_pass_word)
+       {
+        alert("passwords cannot be same ")
+        return false;
+       }
+       if(pass_word.length<8)
+       {
+        alert("passwords should contain minimum of 8 characters")
+        return false;
+       }
+    }
+    </script>
+</head>
+<body>
+    <form onsubmit="return c()" action=" C:\Users\Admin-pc\Documents\VScode\HTML\HTML Practice\registration.html">
+        FirstName<input type = "text" placeholder="Manohar, Raju" id=fname ><br><br>
+        LastName<input type = "text" placeholder="Manohar, Raju" id="lname"  ><br><br>
+        EmailID <input type = "email"><br><br>
+        PassWord<input type = "password" id="pw"><br><br>
+        Confirm PassWord<input type = "password" id="cpw"><br><br>
+        <input type = "checkbox" >Accept <a href = "#">Terms and Conditions</a><br><br>
+         <input type="submit"value="Login">
+    </form>
+</body>
+</html>
